@@ -2,7 +2,7 @@
 
 Rutronik Adapter Board 1 - Sensorfusion with Rutronik Development Kit 2 Demo Application. 
 
-A list of the sensors and their addresses are given below:
+A list of the sensors and their addresses is given below:
 
 ```
 Designator		Device			7-bit Hex I2C Address
@@ -19,7 +19,7 @@ Firmware example running on the RDK2 initiates and tests all the sensors on the 
 
  <img src="images/SensorFusion_RDK2.jpg" style="zoom:10%;" />
 
-The data of all the sensors of RAB1-SENSORFUSION is printed out to the KitProg3 UART port.
+The data from all the sensors of RAB1-SENSORFUSION is printed out to the KitProg3 UART port.
 
 <img src="images/results.png" style="zoom:100%;" />
 
@@ -27,7 +27,7 @@ The data of all the sensors of RAB1-SENSORFUSION is printed out to the KitProg3 
 
 ## Requirements
 
-- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v3.x** [built with **v3.0**]
+- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v2025.4.0** [built with **v3.0**]
 
 ## Supported toolchains (make variable 'TOOLCHAIN')
 
@@ -142,7 +142,7 @@ For a list of supported IDEs and more details, see the "Exporting to IDEs" secti
 
 ### Debugging
 
-If you successfully have imported the example, the debug configurations are already prepared to use with a the KitProg3, MiniProg4, or J-link. Open the ModusToolbox perspective and find the Quick Panel. Click on the desired debug launch configuration and wait for the programming to complete and for the debugging process to start.
+If you have successfully imported the example, the debug configurations are already prepared to use with the KitProg3, MiniProg4. Open the ModusToolbox perspective and find the Quick Panel. Click on the desired debug launch configuration and wait for the programming to complete and for the debugging process to start.
 
 <img src="images/debugging.jpg" style="zoom:100%;" />
 
