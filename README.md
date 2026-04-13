@@ -15,7 +15,7 @@ U7			SHT41-AD1B-R2				0x44
 
 ```
 
-Firmware example running on the RDK2 initiates and tests all the sensors on the RAB1-SENSORFUSION board.
+A firmware example running on the RDK2 initiates and tests all sensors on the RAB1-SENSORFUSION board.
 
  <img src="images/SensorFusion_RDK2.jpg" style="zoom:10%;" />
 
@@ -27,11 +27,11 @@ The data from all the sensors of RAB1-SENSORFUSION is printed out to the KitProg
 
 ## Requirements
 
-- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v2025.4.0** [built with **v3.0**]
+- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v3.7** [built with **v3.0**]
 
 ## Supported toolchains (make variable 'TOOLCHAIN')
 
-- GNU Arm&reg; Embedded Compiler v11.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
+- GNU Arm&reg; Embedded Compiler v14.2.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
 
 ## Using the code example
 
@@ -142,7 +142,7 @@ For a list of supported IDEs and more details, see the "Exporting to IDEs" secti
 
 ### Debugging
 
-If you have successfully imported the example, the debug configurations are already prepared to use with the KitProg3, MiniProg4. Open the ModusToolbox perspective and find the Quick Panel. Click on the desired debug launch configuration and wait for the programming to complete and for the debugging process to start.
+If you have successfully imported the example, the debug configurations are already prepared to use with the KitProg3 and MiniProg4. Open the ModusToolbox perspective and find the Quick Panel. Click the desired debug launch configuration, then wait for programming to complete and the debugging process to start.
 
 <img src="images/debugging.jpg" style="zoom:100%;" />
 
